@@ -182,6 +182,18 @@ php artisan test
 
 ---
 
+## API Testing with Postman
+
+You can also test this API using the included Postman collection.
+
+- Import the file **User-Management-API.postman_collection.json** from this repository.
+- Set the `base_url` variable to your local environment (e.g. `http://127.0.0.1:8000`).
+- Available endpoints:
+  - `POST /api/v1/users` — Create a new user.
+  - `GET /api/v1/users` — List users with pagination, search, and sorting.
+
+---
+
 ## Code Style
 
 - Follows **PSR-12** and **Laravel naming conventions**.
